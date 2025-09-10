@@ -3,7 +3,8 @@ import pandas as pd
 import joblib
 
 
-st.title("CKD Prediction System")
+st.title("Machine Learning Project")
+st.write("Chronic Kidney Disease (CKD) Prediction")
 
 model = joblib.load('best_model.pkl')
 
